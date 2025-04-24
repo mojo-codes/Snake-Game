@@ -1,6 +1,6 @@
 # Snake Game
 
-A enhanced Snake game implementation using Python and Pygame, featuring multiple game modes, rich animations, and sound effects.
+An enhanced Snake game implementation using Python and Pygame, featuring multiple game modes, rich animations, and sound effects.
 
 ## Requirements
 
@@ -90,6 +90,30 @@ python snake_game.py
 - Error handling for music and sound effects
 - Automatic generation of placeholder sound files
 - Dynamic score animation system
+
+ ##  Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main_menu.png)
+
+### Gameplay (Original Level)
+![Gameplay Original](screenshots/gameplay_original_level.png)
+
+### Gameplay (Obstacle Level)
+![Gameplay Obstacles](screenshots/gameplay_obstacle_level.png)
+
+### Level Selection
+![Level Selection](screenshots/level_selection.png)
+
+### Pause Function
+![Pause](screenshots/pause_function.png)
+
+### Music Settings
+![Music Settings](screenshots/music_settings.png)
+
+### Game Over
+![Game Over](screenshots/game_over.png)
+
 
 ## Credits
 - Game developed using Python and Pygame
