@@ -1,120 +1,58 @@
 # Snake Game
 
-An enhanced Snake game implementation using Python and Pygame, featuring multiple game modes, rich animations, and sound effects.
+Early Python/Pygame learning project.
 
-## Requirements
+This was one of my first shipped coding experiments. I keep it public because it shows where the path started: a small game, a visible result and a lot of hands-on learning around state, game loops, UI screens, audio and repository structure.
 
-- Python 3.x
-- Pygame
+It is not a current flagship project. It is a marker of progress.
 
-## Installation
+## What it includes
 
-1. Install the required dependencies:
+- Classic snake gameplay
+- Obstacle mode
+- Different food types and bomb mechanics
+- Pause, reset and menu screens
+- High-score handling
+- Simple sound effects and background music
+- Screenshots for the main game states
+
+## What I practiced
+
+- Structuring a small Python project
+- Handling game state with Pygame
+- Drawing and updating UI elements
+- Managing keyboard input
+- Adding audio and visual feedback
+- Shipping a complete small project instead of leaving it as a local experiment
+
+## Run locally
+
 ```bash
 pip install -r requirements.txt
-```
-
-2. If sound files are missing, the game will automatically create placeholder sounds.
-
-## How to Play
-
-1. Run the game:
-```bash
 python snake_game.py
 ```
 
-2. Controls:
-- Use arrow keys to control the snake's direction
-- Press 'P' to pause/unpause the game
-- Press 'R' to reset the game
-- Press 'ESC' to return to the main menu
-- Close the window to quit
+## Controls
 
-## Game Rules
+- Arrow keys: move
+- `P`: pause or unpause
+- `R`: reset
+- `ESC`: return to menu
 
-- Control the snake to eat different types of food:
-  - **Cherry (Red)**: Regular food worth 1 point
-  - **Pineapple (Yellow)**: Bonus food worth 3 points (appears occasionally and has a time limit)
-  - **Avoid Bombs (Purple)**: Game over if you hit them
-- The snake grows longer with each food eaten
-- Game ends if the snake hits the wall, itself, or a bomb
-- Special bomb mechanics:
-  - **Simultaneous**: Bomb and food appear at the same time
-  - **Sequential**: Bomb appears first, then disappears and food appears in its place
+## Screenshots
 
-## Game Modes
-
-- **Classic Level**: Original gameplay with no obstacles
-- **Obstacles Level**: Includes wall obstacles to navigate around
-
-## Features
-
-### Gameplay
-- Multiple game levels (Classic and Obstacles mode)
-- Variable food types with different point values
-- Bomb mechanics with different strategies
-- Snake growth proportional to food value
-- Timer bar showing food expiration
-- Pause functionality
-- High score system with name entry
-
-### Visual Effects
-- Animated snake with gradient coloring from head to tail
-- Snake eyes that change direction based on movement
-- Visual ripple effects when food is consumed
-- Pulsating snake body segments after eating
-- Pulsating food with sparkle effects
-- Particle explosion effects when the snake dies
-- Animated game over screen with scaling effects
-- Dynamic menu animations
-- Timer bar showing remaining time for bonus food
-
-### Audio
-- Multiple music themes:
-  - **Original**: Classic snake game music - simple and nostalgic
-  - **Upbeat**: Energetic music with a faster tempo
-  - **Adventure**: Epic soundtrack with sweeping melodies
-- Sound effects for eating food, game over, and pausing
-- Dynamic music that continues through game over
-
-### User Interface
-- Animated main menu with snake icon
-- Level selection screen
-- Settings menu for music themes
-- Detailed game over screen with score display
-- High score display and tracking
-- Visual hints and instructions
-
-## Development Features
-- Modular code structure with separate classes for game elements
-- Error handling for music and sound effects
-- Automatic generation of placeholder sound files
-- Dynamic score animation system
-
- ##  Screenshots
-
-### Main Menu
+### Main menu
 ![Main Menu](screenshots/main_menu.png)
 
-### Gameplay (Original Level)
+### Gameplay
 ![Gameplay Original](screenshots/gameplay_original_level.png)
 
-### Gameplay (Obstacle Level)
+### Obstacles
 ![Gameplay Obstacles](screenshots/gameplay_obstacle_level.png)
 
-### Level Selection
-![Level Selection](screenshots/level_selection.png)
-
-### Pause Function
-![Pause](screenshots/pause_function.png)
-
-### Music Settings
-![Music Settings](screenshots/music_settings.png)
-
-### Game Over
+### Game over
 ![Game Over](screenshots/game_over.png)
 
+## Status
 
-## Credits
-- Game developed using Python and Pygame
-- Sound effects and music generated procedurally 
+Archived learning project. I am not actively extending it, but I keep it public as part of the visible learning timeline.
